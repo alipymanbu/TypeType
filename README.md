@@ -1,199 +1,26 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="TypeType" width="100%">
-</p>
+# typetype
 
-You want to know the current position of TypeType about AI ? Go check [this](https://github.com/TypeType-Video/TypeType/blob/dev/AI_TRANSPARENCY.md).
+本仓库是「typetype」的安卓版本获取入口，附使用资料索引。
 
-[Roadmap](https://roadmap.typetype.video) · [Git mirror](https://git.typetype.video/TypeType-Video)
+## 安装文件资源（夸克网盘）
 
-# TypeType
+> **typetype 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/571504e5e9be](https://pan.quark.cn/s/571504e5e9be)
 
-TypeType is a self-hosted video platform for YouTube, NicoNico, and BiliBili.
-Run one private instance, then use it from the responsive web app or the native
-Android client. Accounts, subscriptions, history, playlists, favorites, watch
-progress, and settings stay on the instance you control.
+## 官方项目
 
-<p align="center">
-  <a href="https://typetype.video/fdroid/"><img src="https://raw.githubusercontent.com/TypeType-Video/TypeType-Android/main/assets/badges/fdroid.svg" alt="Install TypeType with F-Droid" width="30%"></a>
-  <a href="https://github.com/TypeType-Video/TypeType-Android/releases/latest"><img src="https://raw.githubusercontent.com/TypeType-Video/TypeType-Android/main/assets/badges/signed-apk.svg" alt="Download the latest signed TypeType APK" width="30%"></a>
-</p>
+- 上游项目：[TypeType-Video/TypeType](https://github.com/TypeType-Video/TypeType)
 
-## Install
+## 更多资料
 
-Docker Engine and Docker Compose v2 are required for the self-hosted stack.
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/typetype/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [屏幕录制怎么用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/typetype/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%E6%80%8E%E4%B9%88%E7%94%A8.md)
+- [屏幕方向控制设置](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/typetype/%E5%B1%8F%E5%B9%95%E6%96%B9%E5%90%91%E6%8E%A7%E5%88%B6%E8%AE%BE%E7%BD%AE.md)
+- [常见问题与权限说明](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/typetype/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E.md)
+- [录屏没有声音或黑屏怎么办](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/typetype/%E5%BD%95%E5%B1%8F%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3%E6%88%96%E9%BB%91%E5%B1%8F%E6%80%8E%E4%B9%88%E5%8A%9E.md)
+- [手持弹幕怎么用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/typetype/%E6%89%8B%E6%8C%81%E5%BC%B9%E5%B9%95%E6%80%8E%E4%B9%88%E7%94%A8.md)
+- [手机与手机文件传输教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/typetype/%E6%89%8B%E6%9C%BA%E4%B8%8E%E6%89%8B%E6%9C%BA%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E6%95%99%E7%A8%8B.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-```sh
-curl -fsSL https://raw.githubusercontent.com/TypeType-Video/TypeType/main/scripts/install-stack.sh | bash
-```
+---
 
-## Web app
-
-The web app runs in a modern browser on desktop and mobile. It provides
-multi-service discovery, personal libraries, downloads, administration, and
-SABR playback without installing a client.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/TypeType-Video/TypeType/7f46bbb/assets/screenshots/01-hero-watch-desktop.png" alt="TypeType playing a YouTube video" width="100%">
-</p>
-
-### Search across three services
-
-<p align="center">
-  <img src="assets/gifs/01-multi-service-search-fluid.gif" alt="Browsing search results from YouTube, NicoNico, and BiliBili" width="960">
-</p>
-
-### Personal library
-
-<p align="center">
-  <img src="assets/gifs/02-library-flow-fluid.gif" alt="Browsing playlists and personal video libraries in TypeType" width="960">
-</p>
-
-### Web playback
-
-<p align="center">
-  <img src="assets/gifs/03-watch-flow-fluid.gif" alt="Browsing a video page and its player in TypeType" width="960">
-</p>
-
-### Mobile web
-
-| Home | Search | Playback |
-| --- | --- | --- |
-| ![TypeType mobile home](https://raw.githubusercontent.com/TypeType-Video/TypeType/7f46bbb/assets/screenshots/07-mobile-home.png) | ![TypeType mobile search](https://raw.githubusercontent.com/TypeType-Video/TypeType/7f46bbb/assets/screenshots/08-mobile-search.png) | ![TypeType mobile playback](https://raw.githubusercontent.com/TypeType-Video/TypeType/7f46bbb/assets/screenshots/11-mobile-watch.png) |
-
-<p align="center">
-  <img src="assets/gifs/04-mobile-flow-fluid.gif" alt="Browsing TypeType search results on a mobile screen" width="430">
-</p>
-
-## Native Android app
-
-[TypeType Android](https://github.com/TypeType-Video/TypeType-Android) is the
-native client for Android phones and tablets. It connects directly to your
-TypeType instance and includes synchronized accounts, subscriptions, history,
-playlists, downloads, background audio, Picture in Picture, audio-only playback,
-captions, SponsorBlock, comments, and native playback controls.
-
-| Home | Native player | Settings |
-| --- | --- | --- |
-| ![TypeType Android home](https://raw.githubusercontent.com/TypeType-Video/TypeType-Android/main/assets/screenshots/android-home.png) | ![TypeType native Android player](https://raw.githubusercontent.com/TypeType-Video/TypeType-Android/main/assets/screenshots/android-player.png) | ![TypeType Android settings](https://raw.githubusercontent.com/TypeType-Video/TypeType-Android/main/assets/screenshots/android-settings.png) |
-
-TypeType Android supports Android 6.0 and newer without requiring Google Play
-Services. Read the
-[Android installation guide](https://github.com/TypeType-Video/TypeType-Android#install)
-for F-Droid and signed APK instructions.
-
-## Self-host TypeType
-
-This central repository contains the Docker Compose stack, installer, update
-and rollback tools, release coordination, and project issue tracker. The web
-and Android clients both connect to the same TypeType instance.
-
-The installer creates `~/typetype-stack`, generates installation-specific secrets, and asks before starting the stack.
-
-The first startup runs one short-lived `typetype-init` task. It creates the
-Downloader database, prepares the Garage configuration, and stores the private
-YouTube session secrets in named volumes before the application services start.
-Compose removes its container automatically after a successful setup.
-
-For an existing installation, update the Compose files and run:
-
-```sh
-./scripts/run-stack-init.sh
-docker compose up -d --remove-orphans --wait
-```
-
-The migration keeps the existing `postgres_data`, `typetype_secrets`, and
-Garage volumes. Do not use `docker compose down -v` during an update: that
-would delete the account database, generated secrets, and stored download
-artifacts.
-
-- [Quick start](https://typetype-video.github.io/Docs-TypeType/self-hosting/quick-start)
-- [Manual Docker Compose setup](https://typetype-video.github.io/Docs-TypeType/self-hosting/docker-compose#manual-setup)
-- [Configuration](https://typetype-video.github.io/Docs-TypeType/self-hosting/configuration)
-
-### Maintain your instance
-
-- [User guide](https://typetype-video.github.io/Docs-TypeType/guide/)
-- [Update guide](https://typetype-video.github.io/Docs-TypeType/self-hosting/maintenance)
-- [Rollback guide](https://typetype-video.github.io/Docs-TypeType/self-hosting/rollback)
-- [Release notes](https://typetype.video/releases)
-- [Report a bug or request a feature](https://github.com/TypeType-Video/TypeType/issues)
-
-## Translations
-
-<a href="https://translate.typetype.video/engage/typetype/">
-    <img src="https://translate.typetype.video/widgets/typetype/-/multi-auto.svg" alt="Translation status" />
-</a>
-
-The [Weblate](https://translate.typetype.video/projects/typetype/web/) platform is the preferred method of contributing translations to the TypeType web interface.
-
-Read the [localization guide](https://github.com/TypeType-Video/TypeType-Frontend/blob/dev/LOCALIZATION.md) for the catalog and contribution workflow.
-
-## What TypeType includes
-
-- Responsive web and native Android clients for YouTube, NicoNico, and BiliBili
-- Accounts, subscriptions, history, playlists, favorites, and watch progress
-- MSE and SABR playback with quality, audio-track, subtitle, and recovery controls
-- Video and audio downloads with local or S3-compatible storage
-- SponsorBlock, DeArrow, content blocking, imports, OIDC, and instance administration
-- No TypeType telemetry; the instance operator controls the deployment and its data
-
-## Thanks to sponsors
-
-### Recurring sponsor
-
-<p>
-  <a href="https://github.com/Toastienergy" title="@Toastienergy"><img src="https://github.com/Toastienergy.png?size=128" alt="@Toastienergy" width="64" height="64"></a>
-</p>
-
-Thank you to [@Toastienergy](https://github.com/Toastienergy) for supporting
-TypeType through a recurring GitHub Sponsors contribution. It helps me cover the
-infrastructure and spend more time improving the project.
-
-### One-time donor
-
-<p>
-  <a href="https://github.com/filippobaroni" title="@filippobaroni"><img src="https://github.com/filippobaroni.png?size=128" alt="@filippobaroni" width="64" height="64"></a>
-</p>
-
-I also thank [@filippobaroni](https://github.com/filippobaroni) for the one-time
-GitHub Sponsors donation that helped support TypeType.
-
-If you want to support TypeType financially, you can do so through
-[GitHub Sponsors](https://github.com/sponsors/Priveetee).
-
-## For developers
-
-Each component has its own repository, tests, release cycle, and license. Pull requests belong in the repository that owns the changed code. Bug reports and feature requests stay in the central issue tracker.
-
-| Repository | Responsibility | License |
-| --- | --- | --- |
-| [TypeType](https://github.com/TypeType-Video/TypeType) | Stack, installer, releases, coordination, and issues | MIT |
-| [TypeType-Android](https://github.com/TypeType-Video/TypeType-Android) | Native Android client | GPL-3.0 |
-| [TypeType-Frontend](https://github.com/TypeType-Video/TypeType-Frontend) | React web client | MIT |
-| [TypeType-Server](https://github.com/TypeType-Video/TypeType-Server) | Kotlin API, extraction, and user data | GPL-3.0 |
-| [TypeType-Player](https://github.com/TypeType-Video/TypeType-Player) | Browser MSE and SABR playback package | MIT |
-| [TypeType-Token](https://github.com/TypeType-Video/TypeType-Token) | YouTube token, decoder, and session service | MIT |
-| [TypeType-Downloader](https://github.com/TypeType-Video/TypeType-Downloader) | Download jobs, muxing, and artifacts | GPL-3.0-or-later |
-| [Docs-TypeType](https://github.com/TypeType-Video/Docs-TypeType) | User and self-hosting documentation | MIT |
-
-Development changes target each component's `dev` branch. `main` represents the stable release line.
-
-Clone the central stack and all public components with:
-
-```sh
-git clone --recurse-submodules https://github.com/TypeType-Video/TypeType.git
-```
-
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
-
-## Privacy and disclaimer
-
-TypeType is designed to provide a private, self-hosted way to use supported media services. The project does not add telemetry or collect usage data. Instance operators control their own accounts, logs, storage, and network configuration.
-
-TypeType is not affiliated with, funded, authorized, endorsed by, or associated with YouTube, Google LLC, NicoNico, BiliBili, or their affiliates. Trademarks, service marks, trade names, and other intellectual property belong to their respective owners.
-
-TypeType is open source software built for learning and research purposes.
-
-## License
-
-The orchestration files in this repository are licensed under the [MIT License](LICENSE). Each component keeps the license shown in the repository table.
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/TypeType-Video/TypeType)。
